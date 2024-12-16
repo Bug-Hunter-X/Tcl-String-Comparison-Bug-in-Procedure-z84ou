@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {[string compare $a $b] == 0} {return 0} {return 1}} # explicit string comparison for correctness
